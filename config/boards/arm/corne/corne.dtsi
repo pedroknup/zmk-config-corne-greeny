@@ -24,7 +24,6 @@
         zephyr,console = &cdc_acm_uart;
         zmk,underglow = &led_strip;
         zmk,physical-layout = &corne_layout;
-        zmk,backlight = &backlight;
     };
 
 	left_encoder: encoder_left {
