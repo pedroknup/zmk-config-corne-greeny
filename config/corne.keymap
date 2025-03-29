@@ -325,6 +325,16 @@
             hold-trigger-key-positions = <17 16 15 14>;
             hold-trigger-on-release;
         };
+
+        long_hold: long_hold {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LONG_HOLD";
+            bindings = <&none>, <&none>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <1000>;
+            flavor = "tap-preferred";
+        };
     };
 
     combos {
@@ -539,11 +549,11 @@
 
         Symbol {
             bindings = <
-&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &trans  &kp LCTRL  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &kp CAPSLOCK     &trans       &trans    &trans      &trans         &trans  &trans     &trans         &trans        &trans                &kp INSERT             &trans
-&trans  &kp BACKSPACE    &trans       &trans    &trans      &trans         &trans  &trans     &trans         &trans        &trans                &kp DELETE             &trans
-                         &trans       &trans    &trans      &trans         &trans  &trans     &trans         &trans
-                                                                           &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR  &kp PERCENT    &trans  &kp LCTRL  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &kp CAPSLOCK     &trans        &trans        &trans      &trans         &trans  &trans     &trans         &trans        &trans                &kp INSERT             &trans
+&trans  &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &trans      &trans         &trans  &trans     &trans         &trans        &trans                &kp DELETE             &trans
+                         &trans        &trans        &trans      &trans         &trans  &trans     &trans         &trans
+                                                                                &trans
             >;
 
             label = "Symbol";
