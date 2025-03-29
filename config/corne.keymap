@@ -37,6 +37,223 @@
 
 / {
     macros {
+              t_max_screen: toggle_max_screen {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LS(SPACE))>;
+            label = "TOGGLE_MAX_SCREEN";
+        };
+
+        vim_exit: vim_exit {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(C) &kp COLON>;
+            label = "VIM_EXIT";
+        };
+
+        screenshot: screenshot {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LS(NUMBER_4))>;
+            label = "SCREENSHOT";
+        };
+
+        spotlight: spotlight {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(SPACE)>;
+            label = "SPOTLIGHT";
+        };
+
+        alt_left: alt_left {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LEFT)>;
+            label = "ALT_LEFT";
+        };
+
+        alt_right: alt_right {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(RIGHT)>;
+            label = "ALT_RIGHT";
+        };
+
+        copy: copy {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(C)>;
+            label = "COPY";
+        };
+
+        paste: paste {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(V)>;
+            label = "PASTE";
+        };
+
+        ctrl_right: ctrl_right {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(RIGHT)>;
+            label = "CTRL_RIGHT";
+        };
+
+        ctrl_left: ctrl_left {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LEFT)>;
+            label = "CTRL_LEFT";
+        };
+
+        focus_1_screen: focus_1_screen {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(W)))>;
+            label = "FOCUS_1_SCREEN";
+        };
+
+        focus_2_screen: focus_2_screen {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(E)))>;
+            label = "FOCUS_2_SCREEN";
+        };
+
+        focus_3_screen: focus_3_screen {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(R)))>;
+            label = "FOCUS_3_SCREEN";
+        };
+
+        throw_1_screen: throw_1_screen {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(M)))>;
+            label = "THROW_1_SCREEN";
+        };
+
+        throw_2_screen: throw_2_screen {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(E)))>;
+            label = "THROW_2_SCREEN";
+        };
+
+        throw_3_screen: throw_3_screen {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(R)))>;
+            label = "THROW_3_SCREEN";
+        };
+
+        throw_1_space: throw_1_space {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(LG(J))))>;
+            label = "THROW_1_SPACE";
+        };
+
+        throw_2_space: throw_2_space {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(LG(K))))>;
+            label = "THROW_2_SPACE";
+        };
+
+        throw_3_space: throw_3_space {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(LG(L))))>;
+            label = "THROW_3_SPACE";
+        };
+
+        throw_4_space: throw_4_space {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(LG(U))))>;
+            label = "THROW_4_SPACE";
+        };
+
+        throw_5_space: throw_5_space {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(LG(I))))>;
+            label = "THROW_5_SPACE";
+        };
+
+        throw_6_space: throw_6_space {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LC(LA(LG(O))))>;
+            label = "THROW_6_SPACE";
+        };
+
+        focus_space_1: focus_space_1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(J)))>;
+            label = "FOCUS_SPACE_1";
+        };
+
+        focus_space_2: focus_space_2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LC(LA(K)))>;
+            label = "FOCUS_SPACE_2";
+        };
+
+        focus_space_3: focus_space_3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(L)))>;
+            label = "FOCUS_SPACE_3";
+        };
+
+        focus_space_4: focus_space_4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(U)))>;
+            label = "FOCUS_SPACE_4";
+        };
+
+        focus_space_5: focus_space_5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(I)))>;
+            label = "FOCUS_SPACE_5";
+        };
+
+        focus_space_6: focus_space_6 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(O)))>;
+            label = "FOCUS_SPACE_6";
+        };
+
+        attach_windows: attatch_windows {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 3 &to 8>;
+            label = "ATTATCH_WINDOWS";
+        };
+
+        attach_mac_personal: attach_mac_personal {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 0 &to 0>;
+            label = "ATTACH_MAC_PERSONAL";
+        };
+
+        attach_mac_work: attach_mac_work {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 1 &to 0>;
+            label = "ATTACH_MAC_WORK";
+        };
+
         flash_macro: flash_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -111,6 +328,211 @@
 
     combos {
         compatible = "zmk,combos";
+
+        combo_control {
+            bindings = <&mo 5>;
+            key-positions = <41 35>;
+            timeout-ms = <70>;
+        };
+
+        combo_space {
+            bindings = <&kp ESC>;
+            key-positions = <35 24>;
+            timeout-ms = <40>;
+        };
+
+        combo_left_esc {
+            bindings = <&mo 5>;
+            key-positions = <24 36>;
+            timeout-ms = <70>;
+        };
+
+        combo_vim {
+            bindings = <&vim_exit>;
+            key-positions = <37 40>;
+            timeout-ms = <50>;
+        };
+
+        quick_tap_esc {
+            bindings = <&kp ESC>;
+            key-positions = <35 41>;
+            timeout-ms = <20>;
+        };
+
+        quick_tap_esc_2 {
+            bindings = <&kp ESC>;
+            key-positions = <24 36>;
+        };
+
+        l4 {
+            bindings = <&to 4>;
+            key-positions = <36 41>;
+        };
+
+        chevron {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <19 8>;
+            require-prior-idle-ms = <100>;
+        };
+
+        chevron_right {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <8 21>;
+            require-prior-idle-ms = <100>;
+        };
+
+        parenthesis_l {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <19 20>;
+        };
+
+        parenthesis_right {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <20 21>;
+        };
+
+        brackets_left {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <31 32>;
+        };
+
+        bracket_right {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <32 33>;
+        };
+
+        braces_left {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <7 8>;
+        };
+
+        braces_right {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <8 9>;
+        };
+
+        slash {
+            bindings = <&kp SLASH>;
+            key-positions = <18 7>;
+        };
+
+        backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <6 19>;
+        };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <6 18>;
+        };
+
+        period {
+            bindings = <&kp PERIOD>;
+            key-positions = <16 19>;
+        };
+
+        comma {
+            bindings = <&kp COMMA>;
+            key-positions = <17 18>;
+        };
+
+        single_quote {
+            bindings = <&kp APOS>;
+            key-positions = <5 6>;
+        };
+
+        double_quotes {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <4 7>;
+        };
+
+        grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <5 4 6 7>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <14 15 16>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <15 16>;
+        };
+
+        switch_right {
+            bindings = <&ctrl_right>;
+            key-positions = <27 28>;
+        };
+
+        switch_left {
+            bindings = <&ctrl_left>;
+            key-positions = <26 27>;
+        };
+
+        switch {
+            bindings = <&kp F18>;
+            key-positions = <28 26>;
+        };
+
+        cmd_thumb {
+            bindings = <&mt LEFT_GUI ESCAPE>;
+            key-positions = <38 39>;
+        };
+
+        underscore {
+            bindings = <&kp UNDER>;
+            key-positions = <13 14 15 16>;
+        };
+
+        semi_colon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <29 30>;
+        };
+
+        ctrl-c {
+            bindings = <&kp LC(C)>;
+            key-positions = <23 12>;
+        };
+
+        jk_period {
+            bindings = <&kp PERIOD>;
+            key-positions = <30 31>;
+        };
+
+        kl_colon {
+            bindings = <&kp COLON>;
+            key-positions = <18 19>;
+        };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <31 28>;
+        };
+
+        switch_personal {
+            bindings = <&bt BT_SEL 0>;
+            key-positions = <25 27>;
+        };
+
+        switch_work {
+            bindings = <&bt BT_SEL 1>;
+            key-positions = <25 28>;
+        };
+
+        lock_pc {
+            bindings = <&kp LG(LC(Q))>;
+            key-positions = <0 11 39 38>;
+        };
+
+        to-lol {
+            bindings = <&to 11>;
+            key-positions = <1 2 3 4>;
+            require-prior-idle-ms = <1000>;
+            layers = <8>;
+        };
+
 
         esc {
             bindings = <&kp ESCAPE>;
