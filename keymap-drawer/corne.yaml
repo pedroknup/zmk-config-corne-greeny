@@ -508,3 +508,5 @@ combos:
   k: Ctl+C
 - p: [42, 44]
   k: {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-command$$'}
+- p: [47, 39]
+  k: {t: Flash, h: toggle}

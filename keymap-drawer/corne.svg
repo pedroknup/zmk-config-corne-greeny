@@ -764,6 +764,14 @@ rect.held, rect.combo.held {
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="453" y="290" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 <use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="454" y="295" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
 </g>
+<g class="combo combopos-33">
+<path d="M427,147 l26,-47" class="combo"/>
+<path d="M427,147 l-26,47" class="combo"/>
+<rect rx="6" ry="6" x="413" y="134" width="28" height="26" class="combo"/>
+<a href="#Flash">
+<text x="427" y="147" class="combo tap layer-activator">Flash</text>
+</a><text x="427" y="158" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 405)" class="layer-Navi">
@@ -1206,6 +1214,14 @@ rect.held, rect.combo.held {
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="453" y="290" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 <use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="454" y="295" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
 </g>
+<g class="combo combopos-33">
+<path d="M427,147 l26,-47" class="combo"/>
+<path d="M427,147 l-26,47" class="combo"/>
+<rect rx="6" ry="6" x="413" y="134" width="28" height="26" class="combo"/>
+<a href="#Flash">
+<text x="427" y="147" class="combo tap layer-activator">Flash</text>
+</a><text x="427" y="158" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 811)" class="layer-Symbol">
@@ -1637,6 +1653,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="448" y="286" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="453" y="290" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 <use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="454" y="295" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
+</g>
+<g class="combo combopos-33">
+<path d="M427,147 l26,-47" class="combo"/>
+<path d="M427,147 l-26,47" class="combo"/>
+<rect rx="6" ry="6" x="413" y="134" width="28" height="26" class="combo"/>
+<a href="#Flash">
+<text x="427" y="147" class="combo tap layer-activator">Flash</text>
+</a><text x="427" y="158" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -2085,6 +2109,14 @@ rect.held, rect.combo.held {
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="453" y="290" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 <use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="454" y="295" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
 </g>
+<g class="combo combopos-33">
+<path d="M427,147 l26,-47" class="combo"/>
+<path d="M427,147 l-26,47" class="combo"/>
+<rect rx="6" ry="6" x="413" y="134" width="28" height="26" class="combo"/>
+<a href="#Flash">
+<text x="427" y="147" class="combo tap layer-activator">Flash</text>
+</a><text x="427" y="158" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1622)" class="layer-Flash">
@@ -2527,6 +2559,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="448" y="286" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="453" y="290" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 <use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="454" y="295" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
+</g>
+<g class="combo combopos-33">
+<path d="M427,147 l26,-47" class="combo"/>
+<path d="M427,147 l-26,47" class="combo"/>
+<rect rx="6" ry="6" x="413" y="134" width="28" height="26" class="combo"/>
+<a href="#Flash">
+<text x="427" y="147" class="combo tap layer-activator">Flash</text>
+</a><text x="427" y="158" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -2989,6 +3029,14 @@ rect.held, rect.combo.held {
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="453" y="290" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 <use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="454" y="295" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
 </g>
+<g class="combo combopos-33">
+<path d="M427,147 l26,-47" class="combo"/>
+<path d="M427,147 l-26,47" class="combo"/>
+<rect rx="6" ry="6" x="413" y="134" width="28" height="26" class="combo"/>
+<a href="#Flash">
+<text x="427" y="147" class="combo tap layer-activator">Flash</text>
+</a><text x="427" y="158" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 2433)" class="layer-Mouse">
@@ -3425,6 +3473,14 @@ rect.held, rect.combo.held {
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="453" y="290" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 <use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="454" y="295" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
 </g>
+<g class="combo combopos-33">
+<path d="M427,147 l26,-47" class="combo"/>
+<path d="M427,147 l-26,47" class="combo"/>
+<rect rx="6" ry="6" x="413" y="134" width="28" height="26" class="combo"/>
+<a href="#Flash">
+<text x="427" y="147" class="combo tap layer-activator">Flash</text>
+</a><text x="427" y="158" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 2838)" class="layer-Layout">
@@ -3853,6 +3909,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="448" y="286" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="453" y="290" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 <use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="454" y="295" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
+</g>
+<g class="combo combopos-33">
+<path d="M427,147 l26,-47" class="combo"/>
+<path d="M427,147 l-26,47" class="combo"/>
+<rect rx="6" ry="6" x="413" y="134" width="28" height="26" class="combo"/>
+<a href="#Flash">
+<text x="427" y="147" class="combo tap layer-activator">Flash</text>
+</a><text x="427" y="158" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -4287,6 +4351,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="448" y="286" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="453" y="290" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 <use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="454" y="295" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
+</g>
+<g class="combo combopos-33">
+<path d="M427,147 l26,-47" class="combo"/>
+<path d="M427,147 l-26,47" class="combo"/>
+<rect rx="6" ry="6" x="413" y="134" width="28" height="26" class="combo"/>
+<a href="#Flash">
+<text x="427" y="147" class="combo tap layer-activator">Flash</text>
+</a><text x="427" y="158" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
