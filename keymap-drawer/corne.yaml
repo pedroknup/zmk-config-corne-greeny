@@ -41,7 +41,7 @@ layers:
   - {t: /, h: '?', s: '?'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: Rgb, h: toggle}
-  - {t: '$$mdi:apple-keyboard-command$$', h: Mouse}
+  - Mouse
   - Navi
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:symbol$$'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -478,7 +478,7 @@ combos:
   k: .
 - p: [18, 20]
   k: {t: ',', s: <}
-- p: [4, 7]
+- p: [4, 8]
   k: '"'
 - p: [5, 7]
   k: {t: '''', h: '`', s: '"'}
