@@ -438,7 +438,7 @@ layers:
   - Sft+Alt+J
   - {t: '$$mdi:transfer$$', type: trans}
   - F18
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: 'Alt+$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
