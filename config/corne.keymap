@@ -389,12 +389,12 @@
 
         parenthesis_l {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <22 23>;
+            key-positions = <22 21>;
         };
 
         parenthesis_right {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <21 22>;
+            key-positions = <22 23>;
         };
 
         brackets_left {
