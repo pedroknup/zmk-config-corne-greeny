@@ -453,12 +453,12 @@
 
         switch_right {
             bindings = <&ctrl_right>;
-            key-positions = <28 29>;
+            key-positions = <30 29>;
         };
 
         switch_left {
             bindings = <&ctrl_left>;
-            key-positions = <29 30>;
+            key-positions = <29 28>;
         };
 
         switch {
