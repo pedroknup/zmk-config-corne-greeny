@@ -565,10 +565,10 @@
 
         Layout {
             bindings = <
-&trans        &trans  &trans  &trans  &trans  &trans           &trans  &trans         &trans  &trans  &trans  &trans  &trans
-&kp LEFT_GUI  &trans  &trans  &trans  &trans  &trans           &trans  &trans         &trans  &trans  &trans  &trans  &kp LEFT_GUI
-&trans        &trans  &trans  &trans  &trans  &trans           &trans  &trans         &trans  &trans  &trans  &trans  &trans
-                      &trans  &trans  &trans  &t_max_screen    &trans  &t_max_screen  &trans  &trans
+&trans        &trans  &trans  &trans  &trans  &trans           &trans  &trans         &trans   &kp LA(LS(COMMA))   &trans   &trans  &trans
+&kp LEFT_GUI  &trans  &trans  &trans  &trans  &trans           &trans  &trans         &kp F17  &kp LA(LS(PERIOD))  &kp F19  &trans  &kp LEFT_GUI
+&trans        &trans  &trans  &trans  &trans  &trans           &trans  &trans         &trans   &trans              &trans   &trans  &trans
+                      &trans  &trans  &trans  &t_max_screen    &trans  &t_max_screen  &trans   &trans
                                                                &trans
             >;
         };
