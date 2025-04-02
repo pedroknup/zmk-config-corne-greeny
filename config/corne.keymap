@@ -373,6 +373,7 @@
             bindings = <&kp LESS_THAN>;
             key-positions = <21 9>;
             require-prior-idle-ms = <100>;
+            layers = <0>;
         };
 
         chevron_right {
@@ -524,7 +525,7 @@
                                                                                                &mkp LCLK
             >;
 
-            label = "Qwery";
+            label = "Qwerty";
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
