@@ -484,9 +484,9 @@ combos:
   k: +
 - p: [16, 17]
   k: {t: '-', s: _}
-- p: [27, 28]
-  k: '&ctrl_right'
 - p: [28, 29]
+  k: '&ctrl_right'
+- p: [29, 30]
   k: '&ctrl_left'
 - p: [28, 26]
   k: F18
