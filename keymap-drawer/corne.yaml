@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: corne}
 layers:
-  Qwery:
+  Qwerty:
   - {t: '$$mdi:keyboard-tab$$', h: Windows}
   - Q
   - W
@@ -336,11 +336,11 @@ layers:
   - BT CLR ALL
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Qwery, h: toggle}
+  - {t: Qwerty, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Qwery, h: toggle, type: held}
+  - {t: Qwerty, h: toggle, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Rgb:
@@ -383,7 +383,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Qwery, h: toggle}
+  - {t: Qwerty, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -454,6 +454,7 @@ combos:
   k: {t: Flash, h: toggle}
 - p: [21, 9]
   k: <
+  l: [Qwerty]
 - p: [9, 23]
   k: '>'
 - p: [22, 21]
