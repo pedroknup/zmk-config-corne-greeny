@@ -532,7 +532,7 @@
 
         Windows {
             bindings = <
-&trans        &trans  &trans  &trans  &trans  &trans           &trans  &trans   &trans             &trans           &trans           &trans  &trans
+&trans        &trans  &trans  &trans  &trans  &trans           &trans  &kp F13  &trans             &trans           &trans           &trans  &trans
 &kp LEFT_GUI  &trans  &trans  &trans  &trans  &trans           &trans  &trans   &focus_space_1     &focus_space_2   &focus_space_3   &trans  &kp LEFT_GUI
 &trans        &trans  &trans  &trans  &trans  &trans           &trans  &trans   &focus_1_screen    &focus_2_screen  &focus_3_screen  &trans  &trans
                       &trans  &trans  &trans  &kp LS(LA(J))    &trans  &kp F18  &kp LA(BACKSPACE)  &trans
