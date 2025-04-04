@@ -43,7 +43,7 @@ layers:
   - {t: Rgb, h: toggle}
   - $$mdi:apple-keyboard-command$$
   - Navi
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:symbol$$'}
+  - {t: '$$mdi:keyboard-space$$', h: Windows}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', h: Symbol}
@@ -51,48 +51,48 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   Windows:
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Q
+  - W
+  - E
+  - R
+  - T
   - {t: '$$mdi:transfer$$', type: trans}
   - F13
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&focus_space_1'
-  - '&focus_space_2'
-  - '&focus_space_3'
+  - U
+  - I
+  - O
+  - P
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-command$$
+  - Hyper+A
+  - Hyper+S
+  - D
+  - Hyper+F
+  - G
+  - {t: '$$mdi:transfer$$', type: trans}
+  - H
+  - Hyper+J
+  - Hyper+K
+  - Hyper+L
+  - {t: ;, s: ':'}
+  - $$mdi:apple-keyboard-command$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Hyper+N
+  - Hyper+M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&focus_1_screen'
-  - '&focus_2_screen'
-  - '&focus_3_screen'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+Alt+J
+  - {t: Sft+Alt+J, type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - F18
   - {t: 'Alt+$$mdi:backspace$$', type: backspace}
