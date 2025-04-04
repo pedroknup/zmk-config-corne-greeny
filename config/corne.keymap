@@ -522,7 +522,7 @@
 &lt 1 TAB             &kp Q            &kp W  &kp E         &kp R              &kp T           &mmv MOVE_UP     &kp Y                 &kp U               &kp I                &kp O                    &kp P                    &lt 5 LC(W)
 &mt LEFT_CONTROL ESC  &hml LEFT_GUI A  &kp S  &kp D         &hml LEFT_SHIFT F  &kp G           &mmv MOVE_DOWN   &kp H                 &hmr RIGHT_SHIFT J  &kp K                &kp L                    &hmr LEFT_GUI SEMICOLON  &as DOUBLE_QUOTES SQT
 &kp LEFT_SHIFT        &kp Z            &kp X  &kp C         &kp V              &kp B           &mmv MOVE_LEFT   &kp N                 &kp M               &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH       &mt LEFT_SHIFT ESC
-                                       &to 7  &kp LEFT_GUI  &mo 3              &ltq 2 SPACE    &mmv MOVE_RIGHT  &mt LEFT_SHIFT ENTER  &ltq 2 BACKSPACE    &kp LEFT_ALT
+                                       &to 7  &kp LEFT_GUI  &mo 3              &ltq 1 SPACE    &mmv MOVE_RIGHT  &mt LEFT_SHIFT ENTER  &ltq 2 BACKSPACE    &kp LEFT_ALT
                                                                                                &mkp LCLK
             >;
 
@@ -532,11 +532,11 @@
 
         Windows {
             bindings = <
-&trans        &trans  &trans  &trans  &trans  &trans           &trans  &kp F13  &trans             &trans           &trans           &trans  &trans
-&kp LEFT_GUI  &trans  &trans  &trans  &trans  &trans           &trans  &trans   &focus_space_1     &focus_space_2   &focus_space_3   &trans  &kp LEFT_GUI
-&trans        &trans  &trans  &trans  &trans  &trans           &trans  &trans   &focus_1_screen    &focus_2_screen  &focus_3_screen  &trans  &trans
-                      &trans  &trans  &trans  &kp LS(LA(J))    &trans  &kp F18  &kp LA(BACKSPACE)  &trans
-                                                               &trans
+&trans        &kp Q                  &kp W                  &kp E   &kp R                  &kp T            &trans  &kp F13                &kp U                  &kp I                  &kp O                  &kp P     &trans
+&kp LEFT_GUI  &kp LS(LG(LC(LA(A))))  &kp LS(LA(LC(LG(S))))  &kp D   &kp LS(LG(LC(LA(F))))  &kp G            &trans  &kp H                  &kp LS(LA(LC(LG(J))))  &kp LS(LC(LG(LA(K))))  &kp LS(LC(LG(LA(L))))  &kp SEMI  &kp LEFT_GUI
+&trans        &kp Z                  &kp X                  &kp C   &kp V                  &kp B            &trans  &kp LS(LA(LC(LG(N))))  &kp LS(LA(LC(LG(M))))  &kp COMMA              &kp DOT                &kp FSLH  &trans
+                                     &trans                 &trans  &trans                 &kp LS(LA(J))    &trans  &kp F18                &kp LA(BACKSPACE)      &trans
+                                                                                                            &trans
             >;
         };
 
