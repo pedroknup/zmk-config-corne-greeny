@@ -55,7 +55,7 @@ layers:
   - W
   - E
   - R
-  - T
+  - {t: Alt+Gui+8, s: Alt+Gui+*}
   - {t: '$$mdi:transfer$$', type: trans}
   - F13
   - U
@@ -64,16 +64,16 @@ layers:
   - P
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-command$$
-  - Hyper+A
-  - Hyper+S
+  - Gui+Alt+1
+  - Alt+Gui+S
   - D
   - Hyper+F
   - G
   - {t: '$$mdi:transfer$$', type: trans}
   - H
-  - Hyper+J
-  - Hyper+K
-  - Hyper+L
+  - {t: Alt+Gui+5, s: Alt+Gui+%}
+  - Gui+Alt+6
+  - {t: Gui+Alt+7, s: Gui+Alt+&}
   - {t: ;, s: ':'}
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -83,9 +83,9 @@ layers:
   - V
   - B
   - {t: '$$mdi:transfer$$', type: trans}
-  - Hyper+N
-  - Hyper+M
-  - {t: ',', s: <}
+  - Alt+Gui+3
+  - Alt+Gui+4
+  - {t: 'Alt+Gui+,', s: Alt+Gui+<}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
