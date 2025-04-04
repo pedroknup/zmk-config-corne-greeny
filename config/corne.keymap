@@ -532,11 +532,11 @@
 
         Windows {
             bindings = <
-&trans        &kp Q                  &kp W                  &kp E   &kp R                  &kp T            &trans  &kp F13                &kp U                  &kp I                  &kp O                  &kp P     &trans
-&kp LEFT_GUI  &kp LS(LG(LC(LA(A))))  &kp LS(LA(LC(LG(S))))  &kp D   &kp LS(LG(LC(LA(F))))  &kp G            &trans  &kp H                  &kp LS(LA(LC(LG(J))))  &kp LS(LC(LG(LA(K))))  &kp LS(LC(LG(LA(L))))  &kp SEMI  &kp LEFT_GUI
-&trans        &kp Z                  &kp X                  &kp C   &kp V                  &kp B            &trans  &kp LS(LA(LC(LG(N))))  &kp LS(LA(LC(LG(M))))  &kp COMMA              &kp DOT                &kp FSLH  &trans
-                                     &trans                 &trans  &trans                 &kp LS(LA(J))    &trans  &kp F18                &kp LA(BACKSPACE)      &trans
-                                                                                                            &trans
+&trans        &kp Q                 &kp W          &kp E   &kp R                  &kp LA(LG(N8))    &trans  &kp F13               &kp U                 &kp I                 &kp O           &kp P     &trans
+&kp LEFT_GUI  &kp LG(LA(NUMBER_1))  &kp LA(LG(S))  &kp D   &kp LS(LG(LC(LA(F))))  &kp G             &trans  &kp H                 &kp LA(LG(N5))        &kp LG(LA(NUMBER_6))  &kp LG(LA(N7))  &kp SEMI  &kp LEFT_GUI
+&trans        &kp Z                 &kp X          &kp C   &kp V                  &kp B             &trans  &kp LA(LG(NUMBER_3))  &kp LA(LG(NUMBER_4))  &kp LA(LG(COMMA))     &kp DOT         &kp FSLH  &trans
+                                    &trans         &trans  &trans                 &kp LS(LA(J))     &trans  &kp F18               &kp LA(BACKSPACE)     &trans
+                                                                                                    &trans
             >;
         };
 
