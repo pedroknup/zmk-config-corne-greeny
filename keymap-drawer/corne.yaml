@@ -65,9 +65,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-command$$
   - Gui+Alt+1
-  - Alt+Gui+S
+  - {t: Alt+Gui+9, s: Alt+Gui+(}
   - D
-  - Hyper+F
+  - Alt+Gui+F
   - G
   - {t: '$$mdi:transfer$$', type: trans}
   - H
