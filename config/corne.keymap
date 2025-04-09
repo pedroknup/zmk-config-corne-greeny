@@ -259,6 +259,20 @@
             #binding-cells = <0>;
             bindings = <&bootloader>;
         };
+
+        turn_led_on: turn_led_on {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&ext_power EP_ON &rgb_ug RGB_ON>;
+            label = "TURN_LED_ON";
+        };
+
+        turn_led_off: turn_led_off {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&ext_power EP_OFF>;
+            label = "TURN_LED_OFF";
+        };
     };
 
     behaviors {
@@ -627,23 +641,23 @@
 
         procreate {
             bindings = <
-&trans     &kp Q  &kp W  &kp E     &kp R   &kp T              &trans     &trans  &trans  &trans  &trans  &trans  &trans
-&alt_left  &kp A  &kp S  &kp D     &kp F   &kp L              &trans     &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &kp Z  &kp X  &kp C     &kp V   &kp B              &kp SPACE  &trans  &trans  &trans  &trans  &trans  &trans
-                  &to 0  &kp LGUI  &mo 10  &mt SPACE LG(Z)    &trans     &trans  &trans  &trans
-                                                              &trans
+&trans        &kp Q  &kp W  &kp E         &kp R   &kp T              &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_GUI  &kp A  &kp S  &kp D         &kp F   &kp L              &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &kp Z  &kp X  &kp C         &kp V   &kp B              &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                     &to 0  &kp LEFT_ALT  &mo 10  &mt SPACE LG(Z)    &trans  &trans  &trans  &trans
+                                                                     &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp RIGHT_BRACKET LEFT_BRACKET>;
+            sensor-bindings = <&inc_dec_kp LG(RIGHT_BRACKET) LG(LEFT_BRACKET)>;
         };
 
         procreate-2 {
             bindings = <
-&trans  &trans     &trans  &trans     &trans  &kp LG(X)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LG(A)  &trans  &kp LG(D)  &trans  &paste       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans  &trans     &trans  &copy        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                   &trans  &trans     &trans  &trans       &trans  &trans  &trans  &trans
-                                                           &trans
+&turn_led_on     &kp LG(Q)        &kp LG(W)  &kp E      &kp R   &kp LG(X)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&turn_led_off    &kp LG(A)        &kp S      &kp LG(D)  &kp F   &kp G        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &kp X      &kp C      &kp V   &kp B        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                  &trans     &trans     &trans  &trans       &trans  &trans  &trans  &trans
+                                                                             &trans
             >;
         };
     };
