@@ -56,7 +56,7 @@ layers:
   - E
   - R
   - {t: Alt+Gui+8, s: Alt+Gui+*}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-up$$
   - F13
   - U
   - I
@@ -69,7 +69,7 @@ layers:
   - D
   - Alt+Gui+F
   - G
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-down$$
   - H
   - {t: Alt+Gui+5, s: Alt+Gui+%}
   - Gui+Alt+6
