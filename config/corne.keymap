@@ -370,7 +370,7 @@
         combo_vim {
             bindings = <&vim_exit>;
             key-positions = <41 45>;
-            timeout-ms = <50>;
+            timeout-ms = <150>;
         };
 
         quick_tap_esc {
