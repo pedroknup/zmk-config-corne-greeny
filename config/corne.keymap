@@ -430,16 +430,19 @@
         slash {
             bindings = <&kp SLASH>;
             key-positions = <8 20>;
+            timeout-ms = <100>;
         };
 
         backslash {
             bindings = <&kp BACKSLASH>;
             key-positions = <7 21>;
+            timeout-ms = <100>;
         };
 
         period {
             bindings = <&kp PERIOD>;
             key-positions = <17 21>;
+            timeout-ms = <150>;
         };
 
         comma {
@@ -450,6 +453,7 @@
         double_quotes {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <4 8>;
+            timeout-ms = <150>;
         };
 
         grave-quotes {
@@ -460,11 +464,13 @@
         plus {
             bindings = <&kp PLUS>;
             key-positions = <15 16 17>;
+            timeout-ms = <150>;
         };
 
         minus {
             bindings = <&kp MINUS>;
             key-positions = <16 17>;
+            timeout-ms = <150>;
         };
 
         switch_right {
@@ -495,6 +501,7 @@
         jk_period {
             bindings = <&kp PERIOD>;
             key-positions = <17 21>;
+            timeout-ms = <150>;
         };
 
         kl_colon {
@@ -505,6 +512,7 @@
         lock_pc {
             bindings = <&kp LG(LC(Q))>;
             key-positions = <0 42 44 12>;
+            timeout-ms = <150>;
         };
 
         pipe {
@@ -520,6 +528,7 @@
         cmd_thumb {
             bindings = <&mt LEFT_GUI ESCAPE>;
             key-positions = <42 44>;
+            timeout-ms = <150>;
         };
 
         flash {
