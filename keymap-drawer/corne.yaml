@@ -25,7 +25,7 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
   - K
   - L
-  - {t: ;, h: '$$mdi:apple-keyboard-command$$', s: ':'}
+  - {t: ;, h: ':', s: ':'}
   - {t: '''', h: '"', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
@@ -129,10 +129,10 @@ layers:
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
   - '{'
-  - {t: '$$mdi:transfer$$', type: trans}
   - '}'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -247,24 +247,24 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   Modify:
   - Gui+Q
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - {t: 'Alt+Sft+,', s: Alt+Sft+<}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
   - {t: '$$mdi:transfer$$', type: trans}
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-command$$'}
-  - Alt+Sft+.
+  - F15
+  - F16
+  - F17
+  - F13
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:skip-previous$$
   - $$mdi:play-pause$$
@@ -273,11 +273,11 @@ layers:
   - RIGHT GUI
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: X, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
-  - '{'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '}'
   - F1
@@ -550,53 +550,10 @@ combos:
   k: $$mdi:keyboard-esc$$
 - p: [46, 40]
   k: {t: Flash, h: toggle}
-- p: [21, 9]
-  k: <
-  l: [Qwerty]
-- p: [9, 23]
-  k: '>'
-- p: [22, 21]
-  k: (
-- p: [22, 23]
-  k: )
-- p: [34, 35]
-  k: {t: '[', s: '{'}
-- p: [35, 36]
-  k: {t: ']', s: '}'}
-- p: [8, 9]
-  k: '{'
-- p: [9, 10]
-  k: '}'
-- p: [8, 20]
-  k: {t: /, s: '?'}
 - p: [7, 21]
   k: {t: \, s: '|'}
-- p: [17, 21]
-  k: .
 - p: [18, 20]
   k: {t: ',', s: <}
-- p: [4, 8]
-  k: '"'
-- p: [5, 7]
-  k: {t: '''', h: '`', s: '"'}
-- p: [15, 16, 17]
-  k: +
-- p: [16, 17]
-  k: {t: '-', s: _}
-- p: [30, 29]
-  k: '&ctrl_right'
-- p: [29, 28]
-  k: '&ctrl_left'
-- p: [28, 26]
-  k: F18
-- p: [14, 15, 16, 17]
-  k: _
-- p: [31, 33]
-  k: {t: ;, s: ':'}
-- p: [17, 21]
-  k: .
-- p: [30, 34]
-  k: ':'
 - p: [0, 42, 44, 12]
   k: Gui+Ctl+Q
 - p: [20, 7]
