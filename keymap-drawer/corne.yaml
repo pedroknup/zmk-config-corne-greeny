@@ -45,7 +45,7 @@ layers:
   - Navi
   - {t: '$$mdi:keyboard-space$$', h: Windows}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:backspace$$', h: Symbol}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:mouse-left-click-outline$$
@@ -56,24 +56,24 @@ layers:
   - E
   - R
   - {t: Alt+Gui+8, s: Alt+Gui+*}
-  - $$mdi:pan-up$$
+  - $$mdi:pan-down$$
   - F13
-  - U
-  - I
-  - O
+  - {t: Gui+7, s: Gui+&}
+  - {t: Gui+8, s: Gui+*}
+  - {t: Gui+9, s: Gui+(}
   - P
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-control$$
   - Gui+Alt+1
   - {t: Alt+Gui+9, s: Alt+Gui+(}
   - D
   - Alt+Gui+F
   - G
-  - $$mdi:pan-down$$
+  - $$mdi:pan-up$$
   - H
-  - {t: Alt+Gui+5, s: Alt+Gui+%}
-  - Gui+Alt+6
-  - {t: Gui+Alt+7, s: Gui+Alt+&}
+  - Gui+4
+  - {t: Gui+5, s: Gui+%}
+  - Gui+6
   - {t: ;, s: ':'}
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -83,10 +83,10 @@ layers:
   - V
   - B
   - {t: '$$mdi:transfer$$', type: trans}
-  - Alt+Gui+3
-  - Alt+Gui+4
-  - {t: 'Alt+Gui+,', s: Alt+Gui+<}
-  - {t: ., s: '>'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+1
+  - Gui+2
+  - Gui+3
   - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
