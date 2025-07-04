@@ -39,7 +39,7 @@ layers:
   - {t: ',', h: <, s: <}
   - {t: ., h: '>'}
   - {t: /, h: '?', s: '?'}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $
   - {t: procreate, h: toggle}
   - $$mdi:apple-keyboard-command$$
   - Navi
