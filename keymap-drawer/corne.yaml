@@ -17,17 +17,17 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - S
-  - D
+  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
   - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - H
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
-  - K
+  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
   - L
   - {t: ;, h: ':', s: ':'}
   - {t: '''', h: '"', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '0', h: '$$mdi:apple-keyboard-shift$$', s: )}
   - Z
   - X
   - C
@@ -45,8 +45,8 @@ layers:
   - Navi
   - {t: '$$mdi:keyboard-space$$', h: Windows}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:backspace$$', h: Symbol}
+  - {t: '$$mdi:keyboard-return$$', h: Symbol}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:mouse-left-click-outline$$
   Windows:
@@ -143,8 +143,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
   Navi:
@@ -339,8 +339,8 @@ layers:
   - {t: Qwerty, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Qwerty, h: toggle, type: held}
+  - {type: held}
+  - {t: Qwerty, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Rgb:
@@ -388,8 +388,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB SAD
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB TOG
   Mouse:
