@@ -148,7 +148,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
   Navi:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&double_tap'
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+?
   - '&alt_left'
