@@ -350,6 +350,14 @@
             tapping-term-ms = <1000>;
             flavor = "tap-preferred";
         };
+
+        double_tap: double_tap {
+            compatible = "zmk,behavior-tap-dance";
+            label = "DOUBLE_TAP";
+            #binding-cells = <0>;
+            bindings = <&bt BT_CLR>;
+            tapping-term-ms = <200>;
+        };
     };
 
     combos {
@@ -463,11 +471,11 @@
 
         Navi {
             bindings = <
-&trans  &trans    &kp LS(QMARK)  &alt_left  &alt_right  &screenshot    &trans     &kp C_VOLUME_UP    &kp N7  &kp N8  &kp N9  &trans    &trans
-&trans  &kp LEFT  &kp DOWN       &kp UP     &kp RIGHT   &paste         &trans     &kp C_VOLUME_DOWN  &kp N4  &kp N5  &kp N6  &kp HOME  &kp PAGE_UP
-&trans  &trans    &trans         &trans     &trans      &copy          &trans     &kp K_MUTE         &kp N1  &kp N2  &kp N3  &kp END   &kp PAGE_DOWN
-                  &trans         &trans     &trans      &kp SPACE      &trans     &mkp LCLK          &kp N0  &trans
-                                                                       &mkp RCLK
+&double_tap  &trans    &kp LS(QMARK)  &alt_left  &alt_right  &screenshot    &trans     &kp C_VOLUME_UP    &kp N7  &kp N8  &kp N9  &trans    &trans
+&trans       &kp LEFT  &kp DOWN       &kp UP     &kp RIGHT   &paste         &trans     &kp C_VOLUME_DOWN  &kp N4  &kp N5  &kp N6  &kp HOME  &kp PAGE_UP
+&trans       &trans    &trans         &trans     &trans      &copy          &trans     &kp K_MUTE         &kp N1  &kp N2  &kp N3  &kp END   &kp PAGE_DOWN
+                       &trans         &trans     &trans      &kp SPACE      &trans     &mkp LCLK          &kp N0  &trans
+                                                                            &mkp RCLK
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
