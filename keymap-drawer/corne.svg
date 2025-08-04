@@ -661,16 +661,8 @@ rect.held, rect.combo.held {
 <path d="M205,188 l-161,-101" class="combo"/>
 <path d="M205,188 l161,101" class="combo"/>
 <rect rx="6" ry="6" x="191" y="175" width="28" height="26" class="combo"/>
-<a href="#cmd_number">
-<text x="205" y="188" class="combo tap layer-activator"><tspan style="font-size: 60%">cmd_number</tspan></text>
-</a></g>
-<g class="combo combopos-13">
-<path d="M239,149 l-194,-66" class="combo"/>
-<path d="M239,149 l56,-65" class="combo"/>
-<path d="M239,149 l130,137" class="combo"/>
-<rect rx="6" ry="6" x="225" y="136" width="28" height="26" class="combo"/>
 <a href="#ctrl_number">
-<text x="239" y="149" class="combo tap layer-activator"><tspan style="font-size: 60%">ctrl_numb…</tspan></text>
+<text x="205" y="188" class="combo tap layer-activator"><tspan style="font-size: 60%">ctrl_numb…</tspan></text>
 </a></g>
 </g>
 </g>
@@ -1019,16 +1011,8 @@ rect.held, rect.combo.held {
 <path d="M205,188 l-161,-101" class="combo"/>
 <path d="M205,188 l161,101" class="combo"/>
 <rect rx="6" ry="6" x="191" y="175" width="28" height="26" class="combo"/>
-<a href="#cmd_number">
-<text x="205" y="188" class="combo tap layer-activator"><tspan style="font-size: 60%">cmd_number</tspan></text>
-</a></g>
-<g class="combo combopos-13">
-<path d="M239,149 l-194,-66" class="combo"/>
-<path d="M239,149 l56,-65" class="combo"/>
-<path d="M239,149 l130,137" class="combo"/>
-<rect rx="6" ry="6" x="225" y="136" width="28" height="26" class="combo"/>
 <a href="#ctrl_number">
-<text x="239" y="149" class="combo tap layer-activator"><tspan style="font-size: 60%">ctrl_numb…</tspan></text>
+<text x="205" y="188" class="combo tap layer-activator"><tspan style="font-size: 60%">ctrl_numb…</tspan></text>
 </a></g>
 </g>
 </g>
@@ -1370,16 +1354,8 @@ rect.held, rect.combo.held {
 <path d="M205,188 l-161,-101" class="combo"/>
 <path d="M205,188 l161,101" class="combo"/>
 <rect rx="6" ry="6" x="191" y="175" width="28" height="26" class="combo"/>
-<a href="#cmd_number">
-<text x="205" y="188" class="combo tap layer-activator"><tspan style="font-size: 60%">cmd_number</tspan></text>
-</a></g>
-<g class="combo combopos-13">
-<path d="M239,149 l-194,-66" class="combo"/>
-<path d="M239,149 l56,-65" class="combo"/>
-<path d="M239,149 l130,137" class="combo"/>
-<rect rx="6" ry="6" x="225" y="136" width="28" height="26" class="combo"/>
 <a href="#ctrl_number">
-<text x="239" y="149" class="combo tap layer-activator"><tspan style="font-size: 60%">ctrl_numb…</tspan></text>
+<text x="205" y="188" class="combo tap layer-activator"><tspan style="font-size: 60%">ctrl_numb…</tspan></text>
 </a></g>
 </g>
 </g>
@@ -1720,16 +1696,8 @@ rect.held, rect.combo.held {
 <path d="M205,188 l-161,-101" class="combo"/>
 <path d="M205,188 l161,101" class="combo"/>
 <rect rx="6" ry="6" x="191" y="175" width="28" height="26" class="combo"/>
-<a href="#cmd_number">
-<text x="205" y="188" class="combo tap layer-activator"><tspan style="font-size: 60%">cmd_number</tspan></text>
-</a></g>
-<g class="combo combopos-13">
-<path d="M239,149 l-194,-66" class="combo"/>
-<path d="M239,149 l56,-65" class="combo"/>
-<path d="M239,149 l130,137" class="combo"/>
-<rect rx="6" ry="6" x="225" y="136" width="28" height="26" class="combo"/>
 <a href="#ctrl_number">
-<text x="239" y="149" class="combo tap layer-activator"><tspan style="font-size: 60%">ctrl_numb…</tspan></text>
+<text x="205" y="188" class="combo tap layer-activator"><tspan style="font-size: 60%">ctrl_numb…</tspan></text>
 </a></g>
 </g>
 </g>
@@ -2062,16 +2030,8 @@ rect.held, rect.combo.held {
 <path d="M205,188 l-161,-101" class="combo"/>
 <path d="M205,188 l161,101" class="combo"/>
 <rect rx="6" ry="6" x="191" y="175" width="28" height="26" class="combo"/>
-<a href="#cmd_number">
-<text x="205" y="188" class="combo tap layer-activator"><tspan style="font-size: 60%">cmd_number</tspan></text>
-</a></g>
-<g class="combo combopos-13">
-<path d="M239,149 l-194,-66" class="combo"/>
-<path d="M239,149 l56,-65" class="combo"/>
-<path d="M239,149 l130,137" class="combo"/>
-<rect rx="6" ry="6" x="225" y="136" width="28" height="26" class="combo"/>
 <a href="#ctrl_number">
-<text x="239" y="149" class="combo tap layer-activator"><tspan style="font-size: 60%">ctrl_numb…</tspan></text>
+<text x="205" y="188" class="combo tap layer-activator"><tspan style="font-size: 60%">ctrl_numb…</tspan></text>
 </a></g>
 </g>
 </g>
@@ -2404,16 +2364,8 @@ rect.held, rect.combo.held {
 <path d="M205,188 l-161,-101" class="combo"/>
 <path d="M205,188 l161,101" class="combo"/>
 <rect rx="6" ry="6" x="191" y="175" width="28" height="26" class="combo"/>
-<a href="#cmd_number">
-<text x="205" y="188" class="combo tap layer-activator"><tspan style="font-size: 60%">cmd_number</tspan></text>
-</a></g>
-<g class="combo combopos-13">
-<path d="M239,149 l-194,-66" class="combo"/>
-<path d="M239,149 l56,-65" class="combo"/>
-<path d="M239,149 l130,137" class="combo"/>
-<rect rx="6" ry="6" x="225" y="136" width="28" height="26" class="combo"/>
 <a href="#ctrl_number">
-<text x="239" y="149" class="combo tap layer-activator"><tspan style="font-size: 60%">ctrl_numb…</tspan></text>
+<text x="205" y="188" class="combo tap layer-activator"><tspan style="font-size: 60%">ctrl_numb…</tspan></text>
 </a></g>
 </g>
 </g>
@@ -2754,16 +2706,8 @@ rect.held, rect.combo.held {
 <path d="M205,188 l-161,-101" class="combo"/>
 <path d="M205,188 l161,101" class="combo"/>
 <rect rx="6" ry="6" x="191" y="175" width="28" height="26" class="combo"/>
-<a href="#cmd_number">
-<text x="205" y="188" class="combo tap layer-activator"><tspan style="font-size: 60%">cmd_number</tspan></text>
-</a></g>
-<g class="combo combopos-13">
-<path d="M239,149 l-194,-66" class="combo"/>
-<path d="M239,149 l56,-65" class="combo"/>
-<path d="M239,149 l130,137" class="combo"/>
-<rect rx="6" ry="6" x="225" y="136" width="28" height="26" class="combo"/>
 <a href="#ctrl_number">
-<text x="239" y="149" class="combo tap layer-activator"><tspan style="font-size: 60%">ctrl_numb…</tspan></text>
+<text x="205" y="188" class="combo tap layer-activator"><tspan style="font-size: 60%">ctrl_numb…</tspan></text>
 </a></g>
 </g>
 </g>
@@ -3121,16 +3065,8 @@ rect.held, rect.combo.held {
 <path d="M205,188 l-161,-101" class="combo"/>
 <path d="M205,188 l161,101" class="combo"/>
 <rect rx="6" ry="6" x="191" y="175" width="28" height="26" class="combo"/>
-<a href="#cmd_number">
-<text x="205" y="188" class="combo tap layer-activator"><tspan style="font-size: 60%">cmd_number</tspan></text>
-</a></g>
-<g class="combo combopos-13">
-<path d="M239,149 l-194,-66" class="combo"/>
-<path d="M239,149 l56,-65" class="combo"/>
-<path d="M239,149 l130,137" class="combo"/>
-<rect rx="6" ry="6" x="225" y="136" width="28" height="26" class="combo"/>
 <a href="#ctrl_number">
-<text x="239" y="149" class="combo tap layer-activator"><tspan style="font-size: 60%">ctrl_numb…</tspan></text>
+<text x="205" y="188" class="combo tap layer-activator"><tspan style="font-size: 60%">ctrl_numb…</tspan></text>
 </a></g>
 </g>
 </g>
@@ -3466,16 +3402,8 @@ rect.held, rect.combo.held {
 <path d="M205,188 l-161,-101" class="combo"/>
 <path d="M205,188 l161,101" class="combo"/>
 <rect rx="6" ry="6" x="191" y="175" width="28" height="26" class="combo"/>
-<a href="#cmd_number">
-<text x="205" y="188" class="combo tap layer-activator"><tspan style="font-size: 60%">cmd_number</tspan></text>
-</a></g>
-<g class="combo combopos-13">
-<path d="M239,149 l-194,-66" class="combo"/>
-<path d="M239,149 l56,-65" class="combo"/>
-<path d="M239,149 l130,137" class="combo"/>
-<rect rx="6" ry="6" x="225" y="136" width="28" height="26" class="combo"/>
 <a href="#ctrl_number">
-<text x="239" y="149" class="combo tap layer-activator"><tspan style="font-size: 60%">ctrl_numb…</tspan></text>
+<text x="205" y="188" class="combo tap layer-activator"><tspan style="font-size: 60%">ctrl_numb…</tspan></text>
 </a></g>
 </g>
 </g>
@@ -3812,16 +3740,8 @@ rect.held, rect.combo.held {
 <path d="M205,188 l-161,-101" class="combo"/>
 <path d="M205,188 l161,101" class="combo"/>
 <rect rx="6" ry="6" x="191" y="175" width="28" height="26" class="combo"/>
-<a href="#cmd_number">
-<text x="205" y="188" class="combo tap layer-activator"><tspan style="font-size: 60%">cmd_number</tspan></text>
-</a></g>
-<g class="combo combopos-13">
-<path d="M239,149 l-194,-66" class="combo"/>
-<path d="M239,149 l56,-65" class="combo"/>
-<path d="M239,149 l130,137" class="combo"/>
-<rect rx="6" ry="6" x="225" y="136" width="28" height="26" class="combo"/>
 <a href="#ctrl_number">
-<text x="239" y="149" class="combo tap layer-activator"><tspan style="font-size: 60%">ctrl_numb…</tspan></text>
+<text x="205" y="188" class="combo tap layer-activator"><tspan style="font-size: 60%">ctrl_numb…</tspan></text>
 </a></g>
 </g>
 </g>
@@ -4159,25 +4079,18 @@ rect.held, rect.combo.held {
 <path d="M205,188 l-161,-101" class="combo"/>
 <path d="M205,188 l161,101" class="combo"/>
 <rect rx="6" ry="6" x="191" y="175" width="28" height="26" class="combo"/>
-<a href="#cmd_number">
-<text x="205" y="188" class="combo tap layer-activator"><tspan style="font-size: 60%">cmd_number</tspan></text>
-</a></g>
-<g class="combo combopos-13">
-<path d="M239,149 l-194,-66" class="combo"/>
-<path d="M239,149 l56,-65" class="combo"/>
-<path d="M239,149 l130,137" class="combo"/>
-<rect rx="6" ry="6" x="225" y="136" width="28" height="26" class="combo"/>
 <a href="#ctrl_number">
-<text x="239" y="149" class="combo tap layer-activator"><tspan style="font-size: 60%">ctrl_numb…</tspan></text>
+<text x="205" y="188" class="combo tap layer-activator"><tspan style="font-size: 60%">ctrl_numb…</tspan></text>
 </a></g>
 </g>
 </g>
 <g transform="translate(40, 4460)" class="layer-cmd_number">
 <text x="0" y="28" class="label" id="cmd_number">cmd_number:</text>
 <g transform="translate(0, 56)">
-<g transform="translate(28, 77)" class="key held keypos-0">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
+<g transform="translate(28, 77)" class="key trans keypos-0">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g transform="translate(84, 77)" class="key trans keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -4392,9 +4305,10 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(382, 299) rotate(30.0)" class="key held keypos-42">
-<rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key held side"/>
-<rect rx="4" ry="4" x="-20" y="-38" width="40" height="68" class="key held"/>
+<g transform="translate(382, 299) rotate(30.0)" class="key trans keypos-42">
+<rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-38" width="40" height="68" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g transform="translate(518, 84)" class="key trans keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -4507,16 +4421,8 @@ rect.held, rect.combo.held {
 <path d="M205,188 l-161,-101" class="combo"/>
 <path d="M205,188 l161,101" class="combo"/>
 <rect rx="6" ry="6" x="191" y="175" width="28" height="26" class="combo"/>
-<a href="#cmd_number">
-<text x="205" y="188" class="combo tap layer-activator"><tspan style="font-size: 60%">cmd_number</tspan></text>
-</a></g>
-<g class="combo combopos-13">
-<path d="M239,149 l-194,-66" class="combo"/>
-<path d="M239,149 l56,-65" class="combo"/>
-<path d="M239,149 l130,137" class="combo"/>
-<rect rx="6" ry="6" x="225" y="136" width="28" height="26" class="combo"/>
 <a href="#ctrl_number">
-<text x="239" y="149" class="combo tap layer-activator"><tspan style="font-size: 60%">ctrl_numb…</tspan></text>
+<text x="205" y="188" class="combo tap layer-activator"><tspan style="font-size: 60%">ctrl_numb…</tspan></text>
 </a></g>
 </g>
 </g>
@@ -4547,9 +4453,10 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(308, 70)" class="key held keypos-5">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
+<g transform="translate(308, 70)" class="key trans keypos-5">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g transform="translate(462, 28)" class="key trans keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -4855,16 +4762,8 @@ rect.held, rect.combo.held {
 <path d="M205,188 l-161,-101" class="combo"/>
 <path d="M205,188 l161,101" class="combo"/>
 <rect rx="6" ry="6" x="191" y="175" width="28" height="26" class="combo"/>
-<a href="#cmd_number">
-<text x="205" y="188" class="combo tap layer-activator"><tspan style="font-size: 60%">cmd_number</tspan></text>
-</a></g>
-<g class="combo combopos-13">
-<path d="M239,149 l-194,-66" class="combo"/>
-<path d="M239,149 l56,-65" class="combo"/>
-<path d="M239,149 l130,137" class="combo"/>
-<rect rx="6" ry="6" x="225" y="136" width="28" height="26" class="combo"/>
 <a href="#ctrl_number">
-<text x="239" y="149" class="combo tap layer-activator"><tspan style="font-size: 60%">ctrl_numb…</tspan></text>
+<text x="205" y="188" class="combo tap layer-activator"><tspan style="font-size: 60%">ctrl_numb…</tspan></text>
 </a></g>
 </g>
 </g>
