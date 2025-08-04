@@ -430,14 +430,9 @@
             key-positions = <47 39>;
         };
 
-        cmd_number {
-            bindings = <&mo 11>;
-            key-positions = <0 42>;
-        };
-
         ctrl_number {
             bindings = <&mo 12>;
-            key-positions = <0 5 42>;
+            key-positions = <0 42>;
         };
     };
 
