@@ -365,6 +365,31 @@
             #binding-cells = <0>;
             bindings = <&none>, <&to 6>;
         };
+
+        hml_layer: hml_layer {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HML_LAYER";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            hold-trigger-key-positions = <15 23>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <180>;
+            require-prior-idle-ms = <125>;
+            flavor = "tap-preferred";
+        };
+
+        quick_tap: quick_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "QUICK_TAP";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+            quick-tap-ms = <200>;
+            require-prior-idle-ms = <125>;
+            hold-trigger-key-positions = <26>;
+        };
     };
 
     combos {
@@ -448,11 +473,11 @@
 
         Qwerty {
             bindings = <
-&lt 1 TAB             &kp Q            &kp W  &kp E            &kp R              &kp T           &mmv MOVE_UP     &kp Y         &kp U               &kp I                &kp O                    &kp P               &lt 5 LC(W)
-&mt LEFT_CONTROL ESC  &hml LEFT_GUI A  &kp S  &hmr LEFT_ALT D  &hml LEFT_SHIFT F  &kp G           &mmv MOVE_DOWN   &kp H         &hmr RIGHT_SHIFT J  &hmr LEFT_ALT K      &kp L                    &as COLON SEMI      &as DOUBLE_QUOTES SQT
-&hmr LEFT_SHIFT N0    &kp Z            &kp X  &kp C            &kp V              &kp B           &mmv MOVE_LEFT   &kp N         &kp M               &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH  &kp DOLLAR
-                                       &to 9  &kp LEFT_GUI     &mo 3              &ltq 1 SPACE    &mmv MOVE_RIGHT  &ltq 2 ENTER  &kp BACKSPACE       &kp LEFT_ALT
-                                                                                                  &mkp LCLK
+&lt 1 TAB                 &kp Q            &kp W           &kp E            &kp R              &kp T           &mmv MOVE_UP     &kp Y         &kp U               &kp I                &kp O                    &kp P               &lt 5 LC(W)
+&mt LEFT_CONTROL ESC      &hml LEFT_GUI A  &hml_layer 2 S  &hml LEFT_ALT D  &hml LEFT_SHIFT F  &kp G           &mmv MOVE_DOWN   &kp H         &hmr RIGHT_SHIFT J  &hmr LEFT_ALT K      &hml_layer 2 L           &as COLON SEMI      &as DOUBLE_QUOTES SQT
+&quick_tap LEFT_SHIFT N0  &kp Z            &kp X           &kp C            &kp V              &kp B           &mmv MOVE_LEFT   &kp N         &kp M               &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH  &kp DOLLAR
+                                           &to 9           &kp LEFT_GUI     &mo 3              &ltq 1 SPACE    &mmv MOVE_RIGHT  &ltq 2 ENTER  &kp BACKSPACE       &kp LEFT_ALT
+                                                                                                               &mkp LCLK
             >;
 
             label = "Qwerty";
