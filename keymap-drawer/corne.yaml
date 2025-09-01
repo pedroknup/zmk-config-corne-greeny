@@ -148,7 +148,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
   Navi:
-  - '&double_tap'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+?
   - '&alt_left'
@@ -187,7 +187,7 @@ layers:
   - {t: '3', s: '#'}
   - END
   - PgDn
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&double_tap'
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - $$mdi:keyboard-space$$
