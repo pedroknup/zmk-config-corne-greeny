@@ -375,7 +375,7 @@
             hold-trigger-key-positions = <15 23>;
             tapping-term-ms = <200>;
             quick-tap-ms = <180>;
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <(-1)>;
             flavor = "tap-preferred";
         };
 
@@ -508,11 +508,11 @@
 
         Navi {
             bindings = <
-&double_tap  &trans    &kp LS(QMARK)  &alt_left  &alt_right  &screenshot    &trans     &kp C_VOLUME_UP    &kp N7  &kp N8  &kp N9  &trans    &trans
-&trans       &kp LEFT  &kp DOWN       &kp UP     &kp RIGHT   &paste         &trans     &kp C_VOLUME_DOWN  &kp N4  &kp N5  &kp N6  &kp HOME  &kp PAGE_UP
-&trans       &trans    &trans         &trans     &trans      &copy          &trans     &kp K_MUTE         &kp N1  &kp N2  &kp N3  &kp END   &kp PAGE_DOWN
-                       &trans         &trans     &trans      &kp SPACE      &trans     &mkp LCLK          &kp N0  &trans
-                                                                            &mkp RCLK
+&trans  &trans    &kp LS(QMARK)  &alt_left  &alt_right  &screenshot    &trans     &kp C_VOLUME_UP    &kp N7  &kp N8  &kp N9  &trans    &trans
+&trans  &kp LEFT  &kp DOWN       &kp UP     &kp RIGHT   &paste         &trans     &kp C_VOLUME_DOWN  &kp N4  &kp N5  &kp N6  &kp HOME  &kp PAGE_UP
+&trans  &trans    &trans         &trans     &trans      &copy          &trans     &kp K_MUTE         &kp N1  &kp N2  &kp N3  &kp END   &kp PAGE_DOWN
+                  &double_tap    &trans     &trans      &kp SPACE      &trans     &mkp LCLK          &kp N0  &trans
+                                                                       &mkp RCLK
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
