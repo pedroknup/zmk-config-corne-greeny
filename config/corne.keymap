@@ -466,6 +466,11 @@
             bindings = <&mo 12>;
             key-positions = <0 42>;
         };
+
+        period_combo {
+            bindings = <&kp PERIOD>;
+            key-positions = <21 17>;
+        };
     };
 
     keymap {
