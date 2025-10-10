@@ -664,3 +664,5 @@ combos:
   k: {t: Flash, h: toggle}
 - p: [0, 42]
   k: ctrl_number
+- p: [21, 17]
+  k: .
