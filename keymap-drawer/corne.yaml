@@ -13,7 +13,7 @@ layers:
   - I
   - O
   - P
-  - {t: Ctl+W, h: Modify}
+  - {t: 'Alt+$$mdi:backspace$$', h: Modify}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: S, h: Symbol}
@@ -284,7 +284,7 @@ layers:
   - F2
   - F3
   - F4
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
