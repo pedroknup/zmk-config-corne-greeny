@@ -480,6 +480,11 @@
             bindings = <&vim_ciw>;
             key-positions = <25 13>;
         };
+
+        esc_thumb {
+            bindings = <&kp ESCAPE>;
+            key-positions = <42 44>;
+        };
     };
 
     keymap {
