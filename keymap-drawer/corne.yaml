@@ -13,7 +13,7 @@ layers:
   - I
   - O
   - P
-  - {t: 'Alt+$$mdi:backspace$$', h: Modify}
+  - {t: Alt+W, h: Modify}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: S, h: Symbol}
