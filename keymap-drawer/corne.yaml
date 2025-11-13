@@ -13,7 +13,7 @@ layers:
   - I
   - O
   - P
-  - {t: Alt+W, h: Modify}
+  - {t: 'Alt+$$mdi:backspace$$', h: Modify}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: S, h: Symbol}
@@ -634,7 +634,7 @@ layers:
   - alt-number
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Gui+0, s: Gui+)}
+  - {t: 'Alt+$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   ctrl_number:
