@@ -487,7 +487,7 @@
 
         Qwerty {
             bindings = <
-&lt 14 TAB                &kp Q            &kp W           &kp E            &kp R              &kp T           &mmv MOVE_UP     &kp Y         &kp U               &kp I                &kp O                    &kp P               &lt 5 LA(BACKSPACE)
+&lt 13 TAB                &kp Q            &kp W           &kp E            &kp R              &kp T           &mmv MOVE_UP     &kp Y         &kp U               &kp I                &kp O                    &kp P               &lt 5 LA(BACKSPACE)
 &mt LEFT_CONTROL ESC      &hml LEFT_GUI A  &hml_layer 2 S  &hml LEFT_ALT D  &hml LEFT_SHIFT F  &kp G           &mmv MOVE_DOWN   &kp H         &hmr RIGHT_SHIFT J  &hmr LEFT_ALT K      &hml_layer 2 L           &as COLON SEMI      &as DOUBLE_QUOTES SQT
 &quick_tap LEFT_SHIFT N0  &kp Z            &kp X           &kp C            &kp V              &kp B           &mmv MOVE_LEFT   &kp N         &kp M               &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH  &kp DOLLAR
                                            &to 9           &kp LEFT_GUI     &mo 3              &ltq 1 SPACE    &mmv MOVE_RIGHT  &ltq 2 ENTER  &kp BACKSPACE       &kp LEFT_ALT
@@ -640,7 +640,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LG(N7)            &kp LG(N8)      &kp LG(N9)      &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LG(LS(N4))        &kp LG(N5)      &kp LG(N6)      &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LG(LS(NUMBER_1))  &kp LG(LS(N2))  &kp LG(LS(N3))  &trans  &trans
-                &trans  &trans  &trans  &trans    &trans  &trans  &kp LG(N0)            &trans
+                &trans  &trans  &trans  &mo 14    &trans  &trans  &kp LG(N0)            &trans
                                                   &trans
             >;
         };
@@ -649,7 +649,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans        &trans  &trans  &kp LC(N7)  &kp LC(N8)  &kp LC(N9)  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans        &trans  &trans  &kp LA(N4)  &kp LC(N5)  &kp LC(N6)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans        &trans  &trans  &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans        &trans  &trans  &kp F17     &kp F18     &kp F19     &trans  &trans
                 &trans  &trans  &trans  &kp LSHIFT    &trans  &trans  &kp LC(N0)  &trans
                                                       &trans
             >;
