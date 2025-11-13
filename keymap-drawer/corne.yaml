@@ -62,7 +62,7 @@ layers:
   - {t: Gui+8, s: Gui+*}
   - {t: Gui+9, s: Gui+(}
   - P
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+1
   - $$mdi:apple-keyboard-control$$
   - Gui+Alt+1
   - {t: Alt+Gui+9, s: Alt+Gui+(}
@@ -75,8 +75,8 @@ layers:
   - {t: Gui+5, s: Gui+%}
   - Gui+6
   - {t: ;, s: ':'}
-  - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+2
+  - {t: Sft+0, s: Sft+)}
   - Z
   - X
   - C
@@ -88,7 +88,7 @@ layers:
   - Gui+2
   - Gui+3
   - {t: /, s: '?'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+3
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -762,5 +762,5 @@ combos:
   k: .
 - p: [14, 15, 16, 17]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-- p: [44, 42]
+- p: [25, 13]
   k: '&vim_ciw'
