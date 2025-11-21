@@ -485,6 +485,16 @@
             bindings = <&kp ESCAPE>;
             key-positions = <42 44>;
         };
+
+        move_window {
+            bindings = <&mo 15>;
+            key-positions = <46 12>;
+        };
+
+        delete {
+            bindings = <&kp LA(DELETE)>;
+            key-positions = <15 17>;
+        };
     };
 
     keymap {
@@ -657,6 +667,16 @@
 &trans  &trans  &trans  &trans  &trans  &trans        &trans  &trans  &kp F17     &kp F18     &kp F19     &trans  &trans
                 &trans  &trans  &trans  &kp LSHIFT    &trans  &trans  &kp LC(N0)  &trans
                                                       &trans
+            >;
+        };
+
+        move_window {
+            bindings = <
+&trans  &trans  &trans             &kp LA(LC(BACKSLASH))  &trans             &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LA(LC(COMMA))  &kp LC(LA(PERIOD))     &kp LA(LC(SLASH))  &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans             &trans                 &trans             &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans             &trans                 &trans             &kp LA(LC(HASH))    &trans  &trans  &trans  &trans
+                                                                                                 &trans
             >;
         };
     };
